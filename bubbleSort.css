@@ -1,0 +1,10 @@
+.numberBlock {
+	display: inline-block;
+	background-color: #DCD8CF;
+	color: #E25D33;
+	margin:5px;
+	padding: 10px;
+	width:30px;
+	text-align: center;
+	position: relative;
+}

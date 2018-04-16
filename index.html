@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Bubble Sort!</title>
+<script src="bubblesort.js"></script>
+<link rel="stylesheet" href="bubbleSort.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Bubble Sort</h1>
+
+	<div class="form-group">
+	    <label for="arraySize">How many numbers would you like to create for sorting?</label>
+	    <input type="text" id="arraySize" class="form-control" name="numberOfItems"/>
+  </div>
+  <br/>
+  <div class="form-group">
+	    <label for="begin">Range of Numbers</label>
+	    <input type="text" id="begin" class="form-control" name="begin" placeholder="From"/>
+	    <input type="text" id="end" class="form-control" name="end" placeholder="To"/>
+  </div>
+  <br/>
+<button type="button" class = "btn btn-primary" onclick="receiveElements()">Create List of Numbers</button>
+<button type="button" class = "btn btn-primary" onclick="sortElements()">Sort List of Numbers</button><br/>
+<br/>
+<div id="numberContainer"></div>
+</body>
+</html>
