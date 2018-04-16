@@ -100,7 +100,7 @@ var SORT = function(list){
 
 function randomWholeNum(begin, end) {
   end += 1;
-  return Math.floor(Math.random() * end) + begin;
+  return Math.floor(Math.random() * (end - begin)) + begin;
 }
 
 function generateRandomNumberSet(desiredSize, begin, end) {
